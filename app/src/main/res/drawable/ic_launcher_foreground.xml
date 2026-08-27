@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Waveform bars, centred in the 72dp safe zone. -->
+    <group android:name="waveform">
+        <path android:fillColor="#F2EDE6" android:pathData="M39,49 h4 a2,2 0 0 1 2,2 v6 a2,2 0 0 1 -2,2 h-4 a2,2 0 0 1 -2,-2 v-6 a2,2 0 0 1 2,-2 z" />
+        <path android:fillColor="#F2EDE6" android:pathData="M47,42 h4 a2,2 0 0 1 2,2 v20 a2,2 0 0 1 -2,2 h-4 a2,2 0 0 1 -2,-2 v-20 a2,2 0 0 1 2,-2 z" />
+        <path android:fillColor="#F2EDE6" android:pathData="M55,32 h4 a2,2 0 0 1 2,2 v40 a2,2 0 0 1 -2,2 h-4 a2,2 0 0 1 -2,-2 v-40 a2,2 0 0 1 2,-2 z" />
+        <path android:fillColor="#F2EDE6" android:pathData="M63,42 h4 a2,2 0 0 1 2,2 v20 a2,2 0 0 1 -2,2 h-4 a2,2 0 0 1 -2,-2 v-20 a2,2 0 0 1 2,-2 z" />
+        <path android:fillColor="#F2EDE6" android:pathData="M71,47 h4 a2,2 0 0 1 2,2 v10 a2,2 0 0 1 -2,2 h-4 a2,2 0 0 1 -2,-2 v-10 a2,2 0 0 1 2,-2 z" />
+    </group>
+</vector>

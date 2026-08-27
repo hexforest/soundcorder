@@ -1,0 +1,11 @@
+# Normalise line endings: LF in the repo, native on checkout for scripts that need it.
+* text=auto eol=lf
+
+*.bat           text eol=crlf
+gradlew         text eol=lf
+*.jar           binary
+*.apk           binary
+*.aab           binary
+*.keystore      binary
+*.png           binary
+*.webp          binary

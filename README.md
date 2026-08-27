@@ -23,13 +23,18 @@ Early development. **Android first**, iOS to follow. Expect rough edges — issu
 
 ## Building
 
-> _Stack and build steps to be finalised — this section will be filled in once the toolchain is set._
+Native Android — Kotlin + Jetpack Compose, a single `app` module. You need JDK 17 and the Android SDK (`compileSdk` 36); Android Studio bundles both.
 
 ```bash
 git clone https://github.com/<your-username>/soundcorder.git
 cd soundcorder
-# build instructions coming soon
+echo "sdk.dir=/path/to/Android/Sdk" > local.properties   # or open the project in Android Studio
+
+./gradlew assembleDebug     # APK -> app/build/outputs/apk/debug/app-debug.apk
+./gradlew installDebug      # build + install on a connected device or emulator
 ```
+
+Recordings are stored as AAC (`.m4a`) in the app's private storage, with a plain `library.json` index — no database, no account, no cloud.
 
 ## Contributing
 
